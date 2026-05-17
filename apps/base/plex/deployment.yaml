@@ -38,11 +38,11 @@ spec:
           readOnlyRootFilesystem: false
         resources:
           requests:
-            memory: "256Mi"
-            cpu: "500m"
-          limits:
             memory: "1Gi"
             cpu: "1500m"
+          limits:
+            memory: "3Gi"
+            cpu: "4500m"
         livenessProbe:
           httpGet:
             path: /
