@@ -27,7 +27,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: calibre
-        image: lscr.io/linuxserver/calibre:9.8.0@sha256:de295215232855535ec110855d2f74946c7d78a596eb3a9d39d191e21dbc6fcc
+        image: lscr.io/linuxserver/calibre:9.9.0@sha256:f745d349a6ef81620d6f64dd77123f4d0f20112719b5d99647c67ac4ccb29ffb
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: false
