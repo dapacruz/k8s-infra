@@ -23,7 +23,7 @@ spec:
           image: ghcr.io/advplyr/audiobookshelf:2.35.1@sha256:1eef6716183c52abafe5405e7d6be8390248ecd59c7488c44af871757ac8fc4d
           command: ["sh", "-c", "echo pulled Audiobookshelf"]
         - name: pull-uptime-kuma
-          image: louislam/uptime-kuma:2.3.2@sha256:9aeb4e51d038047f414309c77a1af553281ca535723cb88907d907269d0a908e
+          image: louislam/uptime-kuma:2.4.0@sha256:91e963bfda569ba115206e843febb446f473ab525add4e08b2b9e3beffa16985
           command: ["sh", "-c", "echo pulled Uptime Kuma"]
       containers:
         - name: pause
