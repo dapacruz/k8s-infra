@@ -29,7 +29,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: sonarr
-        image: lscr.io/linuxserver/sonarr:4.0.17@sha256:60f3b6b5c7647ba2bafd81163acfe34b11117b9b834ebd7fbcc3e5f1b309c7ef
+        image: lscr.io/linuxserver/sonarr:4.0.17@sha256:0b3f344388bd7bed4f2f770058de795e76447e4a481b83c8d5f8fed489371fde
         imagePullPolicy: IfNotPresent
         securityContext:
           allowPrivilegeEscalation: true
