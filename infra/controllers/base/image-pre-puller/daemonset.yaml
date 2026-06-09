@@ -14,7 +14,7 @@ spec:
     spec:
       initContainers:
         - name: pull-plex
-          image: lscr.io/linuxserver/plex:1.43.1@sha256:8d937dd32659bb1defa02d713a3b1cc99919f12aa17a072d588e770a6f1d7d26
+          image: lscr.io/linuxserver/plex:1.43.1@sha256:11e99f0bc8844470733a351cf2b4e454f7bfa37c7f38b43846d465906fea360b
           command: ["sh", "-c", "echo pulled Plex"]
         - name: pull-seerr
           image: ghcr.io/seerr-team/seerr:v3.2.0@sha256:c4cbd5121236ac2f70a843a0b920b68a27976be57917555f1c45b08a1e6b2aad
