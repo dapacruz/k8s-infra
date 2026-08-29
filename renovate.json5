@@ -30,6 +30,7 @@
     'prIgnoreNotification',
   ],
   automerge: true,
+  assignAutomerge: true,
   automergeSchedule: [
     '* 1-4 * * *',
   ],
