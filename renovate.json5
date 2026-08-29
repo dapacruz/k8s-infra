@@ -22,7 +22,9 @@
   assignees: [
     'Dapacruz',
   ],
-  commitBody: 'Signed-off-by: Dapacruz',
+  "commitTrailers": [
+    "Signed-off-by: Dapacruz"
+  ],
   prConcurrentLimit: 20,
   suppressNotifications: [
     'prIgnoreNotification',
