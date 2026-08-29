@@ -48,6 +48,9 @@ spec:
             httpGet:
               path: /
               port: 3000
+              httpHeaders:
+                - name: Host
+                  value: homepage.cruznet.io
             initialDelaySeconds: 30
             periodSeconds: 10
             timeoutSeconds: 5
@@ -56,6 +59,9 @@ spec:
             httpGet:
               path: /
               port: 3000
+              httpHeaders:
+                - name: Host
+                  value: homepage.cruznet.io
           initialDelaySeconds: 5
           periodSeconds: 5
           timeoutSeconds: 3
