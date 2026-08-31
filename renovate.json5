@@ -23,7 +23,7 @@
     'Dapacruz',
   ],
   "commitTrailers": [
-    "Signed-off-by: Dapacruz <fence.punctual424@mailer.me>"
+    "Signed-off-by: Dapacruz <16712755+dapacruz@users.noreply.github.com>"
   ],
   prConcurrentLimit: 20,
   suppressNotifications: [
