@@ -62,12 +62,20 @@ spec:
         env:
         - name: TZ
           value: "America/Los_Angeles"
+        - name: DEBUG
+          value: "knex:query,knex:tx"
+        - name: SQLITE_TMPDIR
+          value: /tmp
         volumeMounts:
         - name: data
           mountPath: /app/data
           subPath: config
+        - name: tmp
+          mountPath: /tmp
       volumes:
       - name: data
         persistentVolumeClaim:
           claimName: uptime-kuma-claim
+      - name: tmp
+        emptyDir: {}
 
