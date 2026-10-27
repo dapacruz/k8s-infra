@@ -45,6 +45,9 @@ spec:
           httpGet:
             path: /
             port: 8989
+            httpHeaders:
+            - name: Host
+              value: sonarr.sonarr.svc.cluster.local
           initialDelaySeconds: 30
           periodSeconds: 10
           timeoutSeconds: 5
@@ -53,6 +56,9 @@ spec:
           httpGet:
             path: /
             port: 8989
+            httpHeaders:
+            - name: Host
+              value: sonarr.sonarr.svc.cluster.local
           initialDelaySeconds: 5
           periodSeconds: 5
           timeoutSeconds: 3
