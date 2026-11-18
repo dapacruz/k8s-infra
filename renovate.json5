@@ -6,9 +6,11 @@
     ':separateMultipleMajorReleases',
     ':separateMultipleMinorReleases',
   ],
-  dependencyDashboard: true,
-  dependencyDashboardTitle: 'Renovate Dashboard',
-  dependencyDashboardAutoclose: false,
+  dependencyDashboard: {
+    enabled: true,
+    title: 'Renovate Dashboard',
+    autoclose: false,
+  },
   kubernetes: {
     managerFilePatterns: [
       '/\\.yaml$/',
@@ -22,8 +24,8 @@
   assignees: [
     'Dapacruz',
   ],
-  "commitTrailers": [
-    "Signed-off-by: Dapacruz <16712755+dapacruz@users.noreply.github.com>"
+  commitTrailers: [
+    'Signed-off-by: Dapacruz <16712755+dapacruz@users.noreply.github.com>',
   ],
   prConcurrentLimit: 20,
   suppressNotifications: [
